@@ -6,7 +6,7 @@ function App() {
   return (
     <div>
       <h1>Hello World </h1>
-       <h2>auto deploy on surge </h2>
+       <h2>my first app on react,  auto deploy on surge </h2>
     </div>
   );
 }
