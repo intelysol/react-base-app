@@ -28,7 +28,7 @@ jobs:
     - name: Yarn CLI
       uses: CultureHQ/actions-yarn@v1.0.1
       with:
-        run: npm install
+        cmd: install
     
     - name: Building with yarn
       run: yarn build
