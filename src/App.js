@@ -1,12 +1,16 @@
 import React from 'react';
-//import logo from './logo.svg';
 import './App.css';
+import Dinner from './dinner.js';
 
 function App() {
   return (
     <div>
-      <h1>Hello World </h1>
-       <h2>my first app on react,  auto deploy on surge </h2>
+      <h1>Our Today Menu</h1>
+      <Dinner dishName='Chicken Biryani' sweetdishName='Gajar ka Halwa'/>
+      <hr/>
+      <Dinner dishName='Chicken Karahi' sweetdishName='Loki Halwa'/>
+      <hr/>
+      <Dinner dishName='Chinese Fried Rice' sweetdishName='Custered'/>
     </div>
   );
 }
